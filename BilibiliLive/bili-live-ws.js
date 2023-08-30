@@ -68,7 +68,7 @@ const decodePacket = (pkt) => {
     }
 
     if (data.op === 8) { // 服务器的握手回复，进入直播间成功了
-        console.log('直播间监听 ready') // 准备好叻！
+        console.log('直播间监听 ready')
         return []
     }
 
